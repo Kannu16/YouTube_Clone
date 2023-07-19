@@ -1,0 +1,134 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.list-group-item{
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sidebar-content{
+  position: fixed;
+  margin-top: 1%;
+}
+.list-group-item:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.sidebar-content-p1{
+  border-bottom: 1px solid #000;;
+}
+.yt-tittle{
+    color: #0f0f0f;
+    font-size: 0.91rem;
+    line-height: 1.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.search-bar{
+    left: 32%;
+    top: 46px;
+    width: 37%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.search-bar  li{
+  list-style: none;
+  cursor: pointer;
+}
+.search-bar  li:first-child{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.search-bar  li:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.youtube-buttonList{
+  background-color:rgba(0, 0, 0, 0.05);
+}
+.watchpage-parent-container {
+  width: 93% ;
+  margin: auto;
+  margin-top: 5%;
+}
+.user-comment-box input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+.user-comment-box input:focus{
+  border-bottom: 1.5px solid #0f0f0f;
+}
+
+.commentreplieslist{
+  border-left: 1px solid #0f0f0f;
+  background-color: beige;
+  margin-left: 13px;
+}
+
+.offline-container{
+  display: relative;
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(-45deg, #183850 0, #183850 25%, #192C46 50%, #22254C 75%, #22254C 100%);
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.wrapper h1 {
+  color: #000;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 5px;
+  line-height: 1rem;
+  text-shadow: 0 0 3px white;
+}
+.wrapper h4 {
+  color: #000;
+  font-family: arial;
+  font-weight: 300;
+  font-size: 16px;
+}
+.wrapper .button {
+  display: block;
+  margin: 20px 0 0;
+  padding: 15px 30px;
+  background: #22254C;
+  color: white;
+  font-family: arial;
+  letter-spacing: 5px;
+  border-radius: .4rem;
+  text-decoration: none;
+  box-shadow: 0 0 15px #22254C;
+}
