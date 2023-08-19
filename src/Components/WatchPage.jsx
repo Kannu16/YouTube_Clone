@@ -3,6 +3,7 @@ import WatchPageVideo from "./WatchPageVideo";
 import { Link, useSearchParams } from "react-router-dom";
 import { fetchData } from "../Utils/Helper";
 import CommentsContainer from "./CommentsContainer";
+import LiveChat from "./LiveChat";
 
 
 const WatchPage = () => {
@@ -29,6 +30,9 @@ const WatchPage = () => {
           <CommentsContainer />
         </div>
         <div className="div-right " style={{ width: "33%" }}>
+        <div className="liveChat">
+            <LiveChat />
+        </div>
 
           {
             video.map((items)=> <Link key={items.id} className="nav-link" to={"?v=" + items.id}> <WatchPageVideo info={items} /> </Link>)

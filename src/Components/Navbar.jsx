@@ -34,7 +34,7 @@ const HeaderNav = () => {
   //Youtube Search API
   const searchResult = async () => {
     const searchData = await fetch(
-      `http://suggestqueries.google.com/complete/search?client=youtube&ds=yt&client=firefox&q=${searchQuery}`
+      `https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&client=firefox&q=${searchQuery}`
     );
     const json = await searchData.json();
     setSearchResult(json[1]);
